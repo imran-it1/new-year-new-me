@@ -60,8 +60,6 @@ header {
     background-size: cover;
 }
 
-.header-section {}
-
 .header-container {
 
     width: 70%;
@@ -99,4 +97,72 @@ header {
 .heading-btn:hover {
     background-color: #02182b;
     color: #FFF;
+}
+
+
+/* Failor Part Style */
+
+
+.failor-img {
+    width: 500px;
+    height: 600px;
+}
+
+.failure-container {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 270px;
+}
+
+.img-section {
+    max-width: 50%;
+}
+
+.text-section {
+    max-width: 50%;
+    margin-top: 175px;
+}
+
+
+.failor-taitle {
+    max-width: 240px;
+    color: #151414;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.failor-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.failor-description {
+    max-width: 46%;
+    color: #444343;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.failor-reason {
+    max-width: 45%;
+}
+
+.failor-section li {
+    list-style-type: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 8px;
+}
+
+
+.fa-solid {
+    color: #16D887;
+    margin-right: 10px;
 }
