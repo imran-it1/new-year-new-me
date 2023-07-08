@@ -3,6 +3,7 @@
 * {
     margin: 0px;
     padding: 0px;
+
 }
 
 body {
@@ -53,7 +54,7 @@ body {
 
 
 header {
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
     background-image: url("/images/banner/banner3.png");
     background-repeat: no-repeat;
@@ -61,7 +62,6 @@ header {
 }
 
 .header-container {
-
     width: 70%;
     height: 100vh;
     margin: auto;
