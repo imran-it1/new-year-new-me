@@ -153,7 +153,12 @@ header {
     max-width: 45%;
 }
 
+.failor-section {
+    margin-top: 130px;
+}
+
 .failor-section li {
+
     list-style-type: none;
     font-size: 12px;
     font-weight: 400;
