@@ -166,3 +166,49 @@ header {
     color: #16D887;
     margin-right: 10px;
 }
+
+/* Plan Section Style */
+
+.plan-section {
+    height: 400px;
+    max-width: 80%;
+    margin: 150px auto;
+    /* background-color: #16D887; */
+}
+
+.plan-heading {
+    color: #151414;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.plan-card-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 170px;
+}
+
+.plan-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.plan-img {
+    margin-bottom: 20px;
+    width: 75px;
+    height: 75px;
+}
+
+.plan-title {
+    color: #151414;
+}
+
+.plan-description {
+    color: #737272;
+}
