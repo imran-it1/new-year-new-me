@@ -48,6 +48,10 @@ body {
     font-weight: 600;
 }
 
+.btn:hover {
+    cursor: pointer;
+}
+
 
 
 /* Header Section Style */
@@ -95,7 +99,7 @@ body {
 }
 
 .heading-btn:hover {
-    background-color: #0390bb;
+    background-color: #000000;
     color: #FFF;
 }
 
@@ -249,6 +253,11 @@ body {
     color: white;
 }
 
+.call-now-btn:hover {
+    background-color: #151414;
+    color: white;
+}
+
 /* Footer section Start */
 
 
@@ -320,7 +329,7 @@ body {
     margin-bottom: 25px;
 }
 
-.footer-right input {
+.footer-input {
     width: 270px;
     height: 45px;
     background: none;
@@ -328,9 +337,20 @@ body {
     border: 1px solid #FFF;
     padding: 1px 5px 1px 18px;
     margin-bottom: 10px;
+    color: white;
+}
+
+.footer-input:focus {
+    border: 0;
+    outline: 1px solid #16D887;
 }
 
 .footer-btn {
     background-color: #005FAC;
     color: white;
+}
+
+.footer-btn:hover {
+    background-color: white;
+    color: black;
 }
